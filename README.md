@@ -22,5 +22,11 @@ I use this languages:
  - css3
  - javaScript(js)
 
+## Also you can try this site on a mobile phone
+
 ### If you want to see this site just use the link bellow:
 http://kitshawerma.unaux.com/
+
+## And don't forget that I always will do more and more updates
+
+
