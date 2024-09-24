@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <div class="KIT"></div>
+        <div class="nav-links" id="navLinks">
+            <i class='bx bxs-minus-square bx-sm' onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MzA4MzkwMjkwMTI0MTU2?story_media_id=3309033387866792680_59970808150&igsh=aWJwd3JvdGR6dzQ3">КОМАНДА</a></li>
+                <li><a href="https://www.instagram.com/kit.shawarma/">INSTAGRAM</a></li>
+                <li><a href="https://places.in.ua/e/kit-shaverma">ЗНАЙТИ НАС</a></li> <br>
+                <li><a href="https://www.korzyna.com/ternopil/kit">ЗАМОВИТИ НА KORZYNA</a></li>
+                <li><a href="https://t.me/kitshawarma_bot">ЗАМОВИТИ В ЧАТБОТІ</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Такої сторінки нажаль ще немає</h1>
+            <br>
+            <a href="index.html" class="hero-btn">На головну</a>
+        </div>
+        
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
